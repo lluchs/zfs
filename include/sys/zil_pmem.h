@@ -4,7 +4,7 @@
 #include <sys/zfs_context.h>
 #include <sys/zil_impl.h>
 
-#define ZILPMEM_PRB_CHUNKSIZE	((size_t)(1<<27))
+#define ZILPMEM_PRB_CHUNKSIZE	((size_t)(1<<25))
 
 typedef struct spa_prb_handle spa_prb_handle_t;
 typedef struct zilog_pmem zilog_pmem_t;
